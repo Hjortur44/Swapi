@@ -1,0 +1,15 @@
+
+.button {
+  padding: 0.28rem;
+
+  border: 1px solid #999;
+  border-radius: 0.17rem;
+  background-color: #eee;
+  font-family: inherit;
+  font-size: inherit;
+
+  &.disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+  }
+}
